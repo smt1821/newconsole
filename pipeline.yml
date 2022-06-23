@@ -18,10 +18,6 @@ stages:
        displayName: Build .NET Project
      - script: dotnet run
        displayName: Run .NET Project
-<<<<<<< HEAD
      - publish: $(System.DefaultWorkingDirectory)/bin/WebApp
         displayName: Publish Artifacts
         artifact: WebApp
-=======
-   
->>>>>>> 38c6ffb6866ee1c8b6977f466bcfa6c2cbc0e5ec
