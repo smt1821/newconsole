@@ -19,5 +19,4 @@ stages:
      - script: dotnet run
        displayName: Run .NET Project
      - publish: $(System.DefaultWorkingDirectory)/bin/WebApp
-        displayName: Publish Artifacts
-        artifact: WebApp
+         artifact: WebApp
