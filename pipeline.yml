@@ -19,3 +19,4 @@ stages:
      - script: dotnet run
        displayName: Run .NET Project
      - publish: $(System.DefaultWorkingDirectory)
+     - download: current
